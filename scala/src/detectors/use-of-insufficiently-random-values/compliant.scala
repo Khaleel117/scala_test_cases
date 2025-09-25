@@ -13,7 +13,7 @@ class UseOfInsufficientlyRandomValuesCompliant {
         // Compliant: `Random` is not used here.
         rand.nextBytes(value)
         val result = value.map("%02x" format _).mkString
-    }
+    } 
  
 }
 // {/fact}
